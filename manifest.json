@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "app": "garden-tracker",
+ "version": 2,
+ "generated": "2026-10-30T12:10:19Z",
+ "minAppVersion": "1.13.1",
+ "files": {
+  "crops": {
+   "file": "crops.json",
+   "version": 6,
+   "size": 80468,
+   "sha256": "f731b595f7805d537a66bd73585e674b0fa4a3a4fb5e318f650646a475176bc5",
+   "count": 88,
+   "updated": "2026-10-26"
+  },
+  "lessons": {
+   "file": "lessons.json",
+   "version": 3,
+   "size": 49853,
+   "sha256": "c81329b2eecf31761624cd3c799be8018b753c18a44c6a7a9924429be1e89c93",
+   "count": 45,
+   "updated": "2026-10-27"
+  },
+  "recipes": {
+   "file": "recipes.json",
+   "version": 10,
+   "size": 336422,
+   "sha256": "2624d3af251a85dc00ea19b88fd91049862328f590002267fee7ad22933ba665",
+   "count": 175,
+   "updated": "2026-10-26"
+  },
+  "storage": {
+   "file": "storage.json",
+   "version": 4,
+   "size": 109110,
+   "sha256": "40667364dc53961593ea21457dfa9b25976bf3f0c9a71645338967e6d407bca0",
+   "count": 9,
+   "updated": "2026-10-26"
+  },
+  "projects": {
+   "file": "projects.json",
+   "version": 5,
+   "size": 89749,
+   "sha256": "e9a22f19ab60f34e9340de8c9479386e5b75f944af3c50410f72b662cb8180d8",
+   "count": 35,
+   "updated": "2026-10-26"
+  },
+  "explore": {
+   "file": "explore.json",
+   "version": 5,
+   "size": 69901,
+   "sha256": "e7973a48ba53265439c98fe717a37a1c590b72374e28e2e11ba2698bdd455f67",
+   "count": 94,
+   "updated": "2026-10-27"
+  },
+  "nutrition": {
+   "file": "nutrition.json",
+   "version": 1,
+   "size": 53230,
+   "sha256": "32c924c2989ad66e9a81e77eb64327ac6d48f7306b1898bca5c8f1617c37df09",
+   "count": 88,
+   "updated": "2026-10-27"
+  },
+  "zipzones": {
+   "file": "zipzones.json",
+   "version": 1,
+   "size": 1058090,
+   "sha256": "2c961d17469cc6aeea696ae8f7eae1d92a388ed9a05ad481362e3cdc8fb7d913",
+   "count": 40283,
+   "updated": "2026-10-25"
+  }
+ },
+ "app_update": {
+  "latest_version": "1.13.1",
+  "versionCode": 21,
+  "download_url": "https://play.google.com/store/apps/details?id=com.gardentracker.app"
+ }
+}
