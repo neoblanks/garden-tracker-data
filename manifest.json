@@ -1,25 +1,25 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 2,
- "generated": "2026-10-30T12:10:19Z",
- "minAppVersion": "1.13.1",
+ "version": 10,
+ "generated": "2026-11-07T23:22:29Z",
+ "minAppVersion": "1.17.1",
  "files": {
   "crops": {
    "file": "crops.json",
-   "version": 6,
-   "size": 80468,
-   "sha256": "f731b595f7805d537a66bd73585e674b0fa4a3a4fb5e318f650646a475176bc5",
-   "count": 88,
-   "updated": "2026-10-26"
+   "version": 11,
+   "size": 134216,
+   "sha256": "9e090e58d076d5d7153a8f39066483041997f4cc68734f30289dd62423be278e",
+   "count": 138,
+   "updated": "2026-11-04"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 3,
-   "size": 49853,
-   "sha256": "c81329b2eecf31761624cd3c799be8018b753c18a44c6a7a9924429be1e89c93",
-   "count": 45,
-   "updated": "2026-10-27"
+   "version": 6,
+   "size": 134023,
+   "sha256": "4aa56fb7a8f5a2bc1b30aa31204d5fad4759740ca473aeeb6d076329b7bee782",
+   "count": 96,
+   "updated": "2026-11-04"
   },
   "recipes": {
    "file": "recipes.json",
@@ -31,35 +31,59 @@
   },
   "storage": {
    "file": "storage.json",
-   "version": 4,
-   "size": 109110,
-   "sha256": "40667364dc53961593ea21457dfa9b25976bf3f0c9a71645338967e6d407bca0",
+   "version": 9,
+   "size": 140956,
+   "sha256": "683b1dfe462e75318aa82bb54801c56d681037b31536850f9e279a0e66c43643",
    "count": 9,
-   "updated": "2026-10-26"
+   "updated": "2026-11-04"
   },
   "projects": {
    "file": "projects.json",
-   "version": 5,
-   "size": 89749,
-   "sha256": "e9a22f19ab60f34e9340de8c9479386e5b75f944af3c50410f72b662cb8180d8",
+   "version": 6,
+   "size": 93587,
+   "sha256": "0b7135967d6951d0c1e3ca2b9f274c3d6067895246fe1aacf14b96fad834d01a",
    "count": 35,
-   "updated": "2026-10-26"
+   "updated": "2026-11-02"
   },
   "explore": {
    "file": "explore.json",
-   "version": 5,
-   "size": 69901,
-   "sha256": "e7973a48ba53265439c98fe717a37a1c590b72374e28e2e11ba2698bdd455f67",
-   "count": 94,
-   "updated": "2026-10-27"
+   "version": 8,
+   "size": 90326,
+   "sha256": "469dfd61c5ec17440e44057a79276c3deb06fc4d89a6b9b3a6108778b56d144d",
+   "count": 120,
+   "updated": "2026-11-04"
   },
   "nutrition": {
    "file": "nutrition.json",
-   "version": 1,
-   "size": 53230,
-   "sha256": "32c924c2989ad66e9a81e77eb64327ac6d48f7306b1898bca5c8f1617c37df09",
-   "count": 88,
-   "updated": "2026-10-27"
+   "version": 6,
+   "size": 71330,
+   "sha256": "b6f14413fb31406522a5c6ccac092032500aee048fa9e4152c463e46790cd80e",
+   "count": 138,
+   "updated": "2026-11-04"
+  },
+  "soilless": {
+   "file": "soilless.json",
+   "version": 4,
+   "size": 19983,
+   "sha256": "3f0f8b2240a6d8309088b7ba59652f6dfeca96826da1bc4cf10f30b8e278b6f1",
+   "count": 7,
+   "updated": "2026-11-06"
+  },
+  "spices": {
+   "file": "spices.json",
+   "version": 3,
+   "size": 55944,
+   "sha256": "f4eb2e3a37330824d7b7e0004ae016142f91d074b04b2a4582450a3ae1a9915f",
+   "count": 59,
+   "updated": "2026-11-04"
+  },
+  "rates": {
+   "file": "rates.json",
+   "version": 2,
+   "size": 1713,
+   "sha256": "596abf1d8dae60aa8eb17a4404e84a4ffa9710feee48e06953350c04efa7af12",
+   "count": 30,
+   "updated": "2026-11-06"
   },
   "zipzones": {
    "file": "zipzones.json",
@@ -71,8 +95,8 @@
   }
  },
  "app_update": {
-  "latest_version": "1.13.1",
-  "versionCode": 21,
+  "latest_version": "1.17.1",
+  "versionCode": 30,
   "download_url": "https://play.google.com/store/apps/details?id=com.gardentracker.app"
  }
 }
