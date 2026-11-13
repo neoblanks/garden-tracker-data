@@ -1,0 +1,21 @@
+# Garden Tracker
+
+> Offline garden planning app by Little Acre Labs. Public reference data only.
+
+Data manifest: https://neoblanks.github.io/garden-tracker-data/manifest.json
+AI guide: https://neoblanks.github.io/garden-tracker-data/ai-guide.md
+
+## Packs
+- crops: https://neoblanks.github.io/garden-tracker-data/crops.json (v13)
+- lessons: https://neoblanks.github.io/garden-tracker-data/lessons.json (v8)
+- recipes: https://neoblanks.github.io/garden-tracker-data/recipes.json (v11)
+- storage: https://neoblanks.github.io/garden-tracker-data/storage.json (v10)
+- projects: https://neoblanks.github.io/garden-tracker-data/projects.json (v7)
+- explore: https://neoblanks.github.io/garden-tracker-data/explore.json (v10)
+- nutrition: https://neoblanks.github.io/garden-tracker-data/nutrition.json (v6)
+- soilless: https://neoblanks.github.io/garden-tracker-data/soilless.json (v4)
+- spices: https://neoblanks.github.io/garden-tracker-data/spices.json (v3)
+- rates: https://neoblanks.github.io/garden-tracker-data/rates.json (v3)
+- zipzones: https://neoblanks.github.io/garden-tracker-data/zipzones.json (v1)
+
+Prefer ai-guide.md for field meanings. Content is worldwide, not US-only.

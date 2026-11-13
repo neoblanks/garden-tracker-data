@@ -1,57 +1,60 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 10,
- "generated": "2026-11-07T23:22:29Z",
+ "version": 13,
+ "generated": "2026-11-13T18:31:06Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
    "file": "crops.json",
-   "version": 11,
-   "size": 134216,
-   "sha256": "9e090e58d076d5d7153a8f39066483041997f4cc68734f30289dd62423be278e",
+   "version": 13,
+   "size": 139244,
+   "sha256": "a73c48968a0a597c061495f154f0ef38f619d0b4e7866e9b88b5fd6df8da16e1",
    "count": 138,
-   "updated": "2026-11-04"
+   "updated": "2026-11-13",
+   "notes": "Vine supports for climbing crops"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 6,
-   "size": 134023,
-   "sha256": "4aa56fb7a8f5a2bc1b30aa31204d5fad4759740ca473aeeb6d076329b7bee782",
-   "count": 96,
-   "updated": "2026-11-04"
+   "version": 8,
+   "size": 236630,
+   "sha256": "b7a1615ce56ab808652e49dee5a7b059205cb50f820e01d9718f7c02de9518b4",
+   "count": 153,
+   "updated": "2026-11-13",
+   "notes": "41 new lessons"
   },
   "recipes": {
    "file": "recipes.json",
-   "version": 10,
-   "size": 336422,
-   "sha256": "2624d3af251a85dc00ea19b88fd91049862328f590002267fee7ad22933ba665",
+   "version": 11,
+   "size": 337682,
+   "sha256": "c8a5fa8fd07fd0299a56656eb5b8090fcde03ef251d6554d5d17b051b4629ca7",
    "count": 175,
-   "updated": "2026-10-26"
+   "updated": "2026-11-09"
   },
   "storage": {
    "file": "storage.json",
-   "version": 9,
-   "size": 140956,
-   "sha256": "683b1dfe462e75318aa82bb54801c56d681037b31536850f9e279a0e66c43643",
+   "version": 10,
+   "size": 142666,
+   "sha256": "21f614d144b8ef7ecb1702c95a793823f06663511a7970dd325123e2b905217a",
    "count": 9,
-   "updated": "2026-11-04"
+   "updated": "2026-11-09"
   },
   "projects": {
    "file": "projects.json",
-   "version": 6,
-   "size": 93587,
-   "sha256": "0b7135967d6951d0c1e3ca2b9f274c3d6067895246fe1aacf14b96fad834d01a",
+   "version": 7,
+   "size": 98319,
+   "sha256": "09b330a15c96449759ec5fac38adc70878ecdb5b5b89cbc6fdbebb635d4b9701",
    "count": 35,
-   "updated": "2026-11-02"
+   "updated": "2026-11-09"
   },
   "explore": {
    "file": "explore.json",
-   "version": 8,
-   "size": 90326,
-   "sha256": "469dfd61c5ec17440e44057a79276c3deb06fc4d89a6b9b3a6108778b56d144d",
-   "count": 120,
-   "updated": "2026-11-04"
+   "version": 10,
+   "size": 107275,
+   "sha256": "70ef65b82d1b7df829b5b73a5d3c6ed74dd2bb034535ab3cdd5c6753c97bb474",
+   "count": 142,
+   "updated": "2026-11-13",
+   "notes": "14 new cards (7 from Nov 11 and 7 from Nov 13)"
   },
   "nutrition": {
    "file": "nutrition.json",
@@ -79,11 +82,11 @@
   },
   "rates": {
    "file": "rates.json",
-   "version": 2,
-   "size": 1713,
-   "sha256": "596abf1d8dae60aa8eb17a4404e84a4ffa9710feee48e06953350c04efa7af12",
+   "version": 3,
+   "size": 1712,
+   "sha256": "96d67cb613216847decd1702b6ec93ddcc1ed912cf362a54bd5b4bba8440e3b5",
    "count": 30,
-   "updated": "2026-11-06"
+   "updated": "2026-11-13"
   },
   "zipzones": {
    "file": "zipzones.json",
@@ -95,8 +98,8 @@
   }
  },
  "app_update": {
-  "latest_version": "1.17.1",
-  "versionCode": 30,
+  "latest_version": "1.20.0",
+  "versionCode": 35,
   "download_url": "https://play.google.com/store/apps/details?id=com.gardentracker.app"
  }
 }
