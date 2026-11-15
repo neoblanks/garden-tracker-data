@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 15,
- "generated": "2026-11-15T04:46:58Z",
+ "version": 16,
+ "generated": "2026-11-15T06:05:33Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
@@ -11,17 +11,16 @@
    "size": 202632,
    "sha256": "59ef00c9f7bfb9a34a92b11ba3b7848e8d0deb41e13834bc5c104de77915e754",
    "count": 140,
-   "updated": "2026-11-14",
-   "notes": "25 varieties on main crops, plus a Show more varieties pack"
+   "updated": "2026-11-14"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 9,
-   "size": 266595,
-   "sha256": "6dcefdd703147cdfb813c53eb076cfa5124ad4db56ab588f372a4ca6b1b3519e",
-   "count": 171,
+   "version": 10,
+   "size": 281761,
+   "sha256": "0f32432b69b6f0704445464c6c52efc793feff9609f9b85788ed007f5ce77d63",
+   "count": 179,
    "updated": "2026-11-14",
-   "notes": "18 new lessons, including the 8-part Plant info words series (171 total)"
+   "notes": "8 new Garden tools lessons (Parts 1 to 8), 179 lessons total"
   },
   "recipes": {
    "file": "recipes.json",
@@ -29,8 +28,7 @@
    "size": 449263,
    "sha256": "87a700f0ce0e6eb2cf42e7f404acff46c1987c42d3b234be5f9ef30a19826dd0",
    "count": 197,
-   "updated": "2026-11-14",
-   "notes": "7 gravies (mushroom, onion, brown pan, country sausage, tomato, vegan veggie, and red-eye)"
+   "updated": "2026-11-14"
   },
   "storage": {
    "file": "storage.json",
@@ -38,8 +36,7 @@
    "size": 156855,
    "sha256": "866891040b6613bc8c484d2893c5e2b8d661fc6687e403fe6fbf54a12068aade",
    "count": 9,
-   "updated": "2026-11-14",
-   "notes": "Gravy storage: do not can gravy at home. Keeps 3 to 4 days in the fridge or 2 to 3 months frozen."
+   "updated": "2026-11-14"
   },
   "projects": {
    "file": "projects.json",
@@ -111,8 +108,7 @@
    "size": 3977,
    "sha256": "b2abace63ff2733cae74bfd078f8d1b276219166c6ba53e89535a1772080152a",
    "count": 25,
-   "updated": "2026-11-14",
-   "notes": "Plant info word meanings, with links to the lesson series"
+   "updated": "2026-11-14"
   },
   "varieties-more": {
    "file": "varieties-more.json",
@@ -120,8 +116,7 @@
    "size": 8493,
    "sha256": "080f1ad6e135629666cf2586d4a61fbb3ad960f77768e6c8bec0b010e16ee450",
    "count": 8,
-   "updated": "2026-11-14",
-   "notes": "Extra researched varieties for the Show more varieties button"
+   "updated": "2026-11-14"
   },
   "zipzones": {
    "file": "zipzones.json",

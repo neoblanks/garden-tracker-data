@@ -17,9 +17,9 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v15**
+- Manifest version: **v16**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-15T04:46:58Z
+- Generated: 2026-11-15T06:05:33Z
 
 ## Packs
 
@@ -33,7 +33,7 @@ When you get that summary, you may look up facts here.
 ### Lessons (`lessons.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/lessons.json
-- Version: **v9** · items: 171 · updated: 2026-11-14
+- Version: **v10** · items: 179 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `lessons` (see file).
 - What it holds: Short gardening lessons at about a 3rd-grade reading level. Fields: id, title, level, body (paragraphs), tip, quiz, optional series {id, part}. Part labels are Part 1, Part 2, …
 
