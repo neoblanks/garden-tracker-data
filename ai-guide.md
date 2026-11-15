@@ -17,23 +17,23 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v16**
+- Manifest version: **v17**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-15T06:05:33Z
+- Generated: 2026-11-15T18:50:54Z
 
 ## Packs
 
 ### Crop library (`crops.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/crops.json
-- Version: **v15** · items: 140 · updated: 2026-11-14
+- Version: **v16** · items: 140 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `crops` (see file).
 - What it holds: Each crop: id, name, type (Vegetable/Grain/Herb/Fruit), family, days to maturity (dtm), spacing, sun, season, method, zones [min,max], notes, sources (src). Groups nest varieties. Worldwide hardiness zones — not US-only.
 
 ### Lessons (`lessons.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/lessons.json
-- Version: **v10** · items: 179 · updated: 2026-11-14
+- Version: **v11** · items: 194 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `lessons` (see file).
 - What it holds: Short gardening lessons at about a 3rd-grade reading level. Fields: id, title, level, body (paragraphs), tip, quiz, optional series {id, part}. Part labels are Part 1, Part 2, …
 
@@ -120,6 +120,13 @@ When you get that summary, you may look up facts here.
 - Version: **v1** · items: 8 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `crops` (see file).
 - What it holds: Extra researched varieties beyond the first 25 on a crop page. Fields: id (crop id), varieties [{n, era (modern|historic), color, size, dtm, habit, resist, climate}]. The app uses the newest of the bundled pack and a later download; works offline. Own-words summaries of extension lists; not a catalog reprint.
+
+### Winterizing checklists (`winterize.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/winterize.json
+- Version: **v2** · items: 4 · updated: 2026-11-15
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `guides` (see file).
+- What it holds: Cold-season prep guides with tickable checklists for beehives, the garden, greenhouses, and sheds or root cellars. Fields: id, title, blurb, intro, climate notes, items [{id,t}], links to existing lessons and projects, sources. Also lists pollinator flowers for the Bee Happy badge. Worldwide wording; metric first.
 
 ### ZIP → zone table (`zipzones.json`)
 

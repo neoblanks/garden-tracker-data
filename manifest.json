@@ -1,26 +1,27 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 16,
- "generated": "2026-11-15T06:05:33Z",
+ "version": 17,
+ "generated": "2026-11-15T18:50:54Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
    "file": "crops.json",
-   "version": 15,
-   "size": 202632,
-   "sha256": "59ef00c9f7bfb9a34a92b11ba3b7848e8d0deb41e13834bc5c104de77915e754",
+   "version": 16,
+   "size": 204070,
+   "sha256": "1c174929910b83ce12f60ed6204ca36dd53dfedb1a6f91945ac1993fe3ce88f2",
    "count": 140,
-   "updated": "2026-11-14"
+   "updated": "2026-11-15",
+   "notes": "Bee Happy flags: crops bees pollinate or help"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 10,
-   "size": 281761,
-   "sha256": "0f32432b69b6f0704445464c6c52efc793feff9609f9b85788ed007f5ce77d63",
-   "count": 179,
-   "updated": "2026-11-14",
-   "notes": "8 new Garden tools lessons (Parts 1 to 8), 179 lessons total"
+   "version": 11,
+   "size": 307432,
+   "sha256": "08cb06439780a18e5baf3d86be414f528b0c2fc6d0aa174994dca7560ec19a0f",
+   "count": 194,
+   "updated": "2026-11-15",
+   "notes": "15-part Bees lesson series (194 lessons total)"
   },
   "recipes": {
    "file": "recipes.json",
@@ -117,6 +118,15 @@
    "sha256": "080f1ad6e135629666cf2586d4a61fbb3ad960f77768e6c8bec0b010e16ee450",
    "count": 8,
    "updated": "2026-11-14"
+  },
+  "winterize": {
+   "file": "winterize.json",
+   "version": 2,
+   "size": 16073,
+   "sha256": "1725024e2a31d667708174fc38d5c19e5d42aae6bb11a2fe0d96adb267617606",
+   "count": 4,
+   "updated": "2026-11-15",
+   "notes": "Cold-season checklists for beehives, the garden, greenhouses, and sheds or root cellars, plus pollinator flowers"
   },
   "zipzones": {
    "file": "zipzones.json",
