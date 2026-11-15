@@ -7,7 +7,7 @@ AI guide: https://neoblanks.github.io/garden-tracker-data/ai-guide.md
 
 ## Packs
 - crops: https://neoblanks.github.io/garden-tracker-data/crops.json (v16)
-- lessons: https://neoblanks.github.io/garden-tracker-data/lessons.json (v12)
+- lessons: https://neoblanks.github.io/garden-tracker-data/lessons.json (v13)
 - recipes: https://neoblanks.github.io/garden-tracker-data/recipes.json (v14)
 - storage: https://neoblanks.github.io/garden-tracker-data/storage.json (v14)
 - projects: https://neoblanks.github.io/garden-tracker-data/projects.json (v7)

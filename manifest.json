@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 18,
- "generated": "2026-11-15T19:38:29Z",
+ "version": 19,
+ "generated": "2026-11-15T21:15:46Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
@@ -15,12 +15,12 @@
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 12,
-   "size": 310914,
-   "sha256": "1e712e49579967bf2502e843710ec22ead98d225f22d5d084d8f04ef4dc65a1d",
+   "version": 13,
+   "size": 311305,
+   "sha256": "1a6e0f89c2e7e40902889fbd289e0a4e1229222b6a146ea535f2a2dc92923d6b",
    "count": 194,
    "updated": "2026-11-15",
-   "notes": "Thomas’s 46 Bees lesson wording fixes (still 194 lessons)"
+   "notes": "Wording fixes in Bees Parts 2, 8, and 11 (still 194 lessons)"
   },
   "recipes": {
    "file": "recipes.json",
@@ -36,8 +36,7 @@
    "size": 158088,
    "sha256": "86396759554861160cf6c658ede5e30d7e0992f4267a435dd866ea759358b1ab",
    "count": 9,
-   "updated": "2026-11-15",
-   "notes": "Honey group in Homemade foods: do not can honey; never give honey to a child younger than 1"
+   "updated": "2026-11-15"
   },
   "projects": {
    "file": "projects.json",
@@ -109,8 +108,7 @@
    "size": 7624,
    "sha256": "4dabeec02143c89ce1641ce9642dd10ff68009ddbc6e6ed9d9558166dd74d68d",
    "count": 45,
-   "updated": "2026-11-15",
-   "notes": "Bee words (45 terms), with short forms written out"
+   "updated": "2026-11-15"
   },
   "varieties-more": {
    "file": "varieties-more.json",
@@ -126,8 +124,7 @@
    "size": 14507,
    "sha256": "727553a10a34d97ff3e308c645b30402dd04e4469f8431240aa915fc25bc5d88",
    "count": 4,
-   "updated": "2026-11-15",
-   "notes": "Pollinator flowers moved to the bees pack; the four cold-season checklists stay here"
+   "updated": "2026-11-15"
   },
   "bees": {
    "file": "bees.json",
@@ -135,8 +132,7 @@
    "size": 14532,
    "sha256": "a5b8200baea51080f76923c5fa5af2e4f071ab92ffdaf57054645e04596080e5",
    "count": 4,
-   "updated": "2026-11-15",
-   "notes": "Bees reference: how to start, hive diseases and pests, pollinator flowers, and hive health"
+   "updated": "2026-11-15"
   },
   "zipzones": {
    "file": "zipzones.json",
