@@ -17,16 +17,16 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v13**
+- Manifest version: **v14**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-13T18:31:06Z
+- Generated: 2026-11-15T04:13:00Z
 
 ## Packs
 
 ### Crop library (`crops.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/crops.json
-- Version: **v13** · items: 138 · updated: 2026-11-13
+- Version: **v14** · items: 140 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `crops` (see file).
 - What it holds: Each crop: id, name, type (Vegetable/Grain/Herb/Fruit), family, days to maturity (dtm), spacing, sun, season, method, zones [min,max], notes, sources (src). Groups nest varieties. Worldwide hardiness zones — not US-only.
 
@@ -40,14 +40,14 @@ When you get that summary, you may look up facts here.
 ### Recipes / garden meals (`recipes.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/recipes.json
-- Version: **v11** · items: 175 · updated: 2026-11-09
+- Version: **v13** · items: 190 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `recipes` (see file).
 - What it holds: Recipes that use garden crops. Fields include id, title, course, time, diet tags, ingredients linked to crop ids, steps, sources.
 
 ### Preserve & Store (`storage.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/storage.json
-- Version: **v10** · items: 9 · updated: 2026-11-09
+- Version: **v12** · items: 9 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `methods` (see file).
 - What it holds: Food preservation methods (canning, freezing, drying, cellar, pickling, …) plus per-crop method lists. Prefer trusted process times (USDA / NCHFP / extension).
 
@@ -92,6 +92,20 @@ When you get that summary, you may look up facts here.
 - Version: **v3** · items: 30 · updated: 2026-11-13
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `rates` (see file).
 - What it holds: Exchange rates so project cost estimates can show in the gardener's money. Updated from public ECB data when publishing.
+
+### Crops around the world (`countrycrops.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/countrycrops.json
+- Version: **v1** · items: 198 · updated: 2026-11-14
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `countries` (see file).
+- What it holds: Top 20 crops in each country (FAOSTAT Crops and livestock products, "area harvested" in hectares, newest year; CC BY 4.0, cite FAO). Fields: id (UN M49 code), name, fao (FAO name), cont, year, nCrops, crops [{n, ha, crop?}] where crop links to a crop id.
+
+### Crop history timeline (`crophistory.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/crophistory.json
+- Version: **v1** · items: 32 · updated: 2026-11-14
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `items` (see file).
+- What it holds: About how many years ago people first farmed (domesticated) each crop. Fields: id, name, ago (years, approximate), region, text, crops (crop ids), sure (false = still debated), atLeast, src. noDate lists library crops with no trusted date yet.
 
 ### ZIP → zone table (`zipzones.json`)
 

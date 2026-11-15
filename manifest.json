@@ -1,18 +1,18 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 13,
- "generated": "2026-11-13T18:31:06Z",
+ "version": 14,
+ "generated": "2026-11-15T04:13:00Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
    "file": "crops.json",
-   "version": 13,
-   "size": 139244,
-   "sha256": "a73c48968a0a597c061495f154f0ef38f619d0b4e7866e9b88b5fd6df8da16e1",
-   "count": 138,
-   "updated": "2026-11-13",
-   "notes": "Vine supports for climbing crops"
+   "version": 14,
+   "size": 142594,
+   "sha256": "d38c3b69482eb1acfb4447a1b25af0c10b53c7facf312f36ace961811650ba3c",
+   "count": 140,
+   "updated": "2026-11-14",
+   "notes": "Sugarcane and cacao, with tropical and pot/greenhouse growing info"
   },
   "lessons": {
    "file": "lessons.json",
@@ -20,24 +20,25 @@
    "size": 236630,
    "sha256": "b7a1615ce56ab808652e49dee5a7b059205cb50f820e01d9718f7c02de9518b4",
    "count": 153,
-   "updated": "2026-11-13",
-   "notes": "41 new lessons"
+   "updated": "2026-11-13"
   },
   "recipes": {
    "file": "recipes.json",
-   "version": 11,
-   "size": 337682,
-   "sha256": "c8a5fa8fd07fd0299a56656eb5b8090fcde03ef251d6554d5d17b051b4629ca7",
-   "count": 175,
-   "updated": "2026-11-09"
+   "version": 13,
+   "size": 413563,
+   "sha256": "561ff1f0d5589288315d425a63154293489d9726d49b60c0f75bed88af82c4ba",
+   "count": 190,
+   "updated": "2026-11-14",
+   "notes": "Homemade yeast (raisin yeast water and potato yeast), plus yeast bread, potato bread, sourdough starter, cane sugar, sour cream, and cream soups"
   },
   "storage": {
    "file": "storage.json",
-   "version": 10,
-   "size": 142666,
-   "sha256": "21f614d144b8ef7ecb1702c95a793823f06663511a7970dd325123e2b905217a",
+   "version": 12,
+   "size": 154381,
+   "sha256": "9b7bde94ece1cc157c83102b90fab70758bc9073d101f46e1d5ead37bf0177a2",
    "count": 9,
-   "updated": "2026-11-09"
+   "updated": "2026-11-14",
+   "notes": "Homemade foods storage, including homemade yeast (do not can). Sugarcane and cacao added."
   },
   "projects": {
    "file": "projects.json",
@@ -53,8 +54,7 @@
    "size": 107275,
    "sha256": "70ef65b82d1b7df829b5b73a5d3c6ed74dd2bb034535ab3cdd5c6753c97bb474",
    "count": 142,
-   "updated": "2026-11-13",
-   "notes": "14 new cards (7 from Nov 11 and 7 from Nov 13)"
+   "updated": "2026-11-13"
   },
   "nutrition": {
    "file": "nutrition.json",
@@ -88,6 +88,24 @@
    "count": 30,
    "updated": "2026-11-13"
   },
+  "countrycrops": {
+   "file": "countrycrops.json",
+   "version": 1,
+   "size": 172500,
+   "sha256": "f841866823ac68f2b4884fce7bd7e7c5722326db51278f1cf547dfedfb28b013",
+   "count": 198,
+   "updated": "2026-11-14",
+   "notes": "Top 20 crops in 198 countries from FAOSTAT 2024 (CC BY 4.0)"
+  },
+  "crophistory": {
+   "file": "crophistory.json",
+   "version": 1,
+   "size": 15591,
+   "sha256": "f54daadbbe5c832534198d986cc126b0d6b8744907e18c18db5209bb7776eea4",
+   "count": 32,
+   "updated": "2026-11-14",
+   "notes": "Crop history timeline: how long people have grown 69 library crops"
+  },
   "zipzones": {
    "file": "zipzones.json",
    "version": 1,
@@ -96,10 +114,5 @@
    "count": 40283,
    "updated": "2026-10-25"
   }
- },
- "app_update": {
-  "latest_version": "1.20.0",
-  "versionCode": 35,
-  "download_url": "https://play.google.com/store/apps/details?id=com.gardentracker.app"
  }
 }
