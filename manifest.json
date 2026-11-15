@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 19,
- "generated": "2026-11-15T21:15:46Z",
+ "version": 20,
+ "generated": "2026-11-15T23:44:41Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
@@ -15,12 +15,12 @@
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 13,
-   "size": 311305,
-   "sha256": "1a6e0f89c2e7e40902889fbd289e0a4e1229222b6a146ea535f2a2dc92923d6b",
-   "count": 194,
+   "version": 14,
+   "size": 339708,
+   "sha256": "c56aee04cf641d939acce5763d346f71d1e867b0354f9a57fc67fcb270765a4c",
+   "count": 210,
    "updated": "2026-11-15",
-   "notes": "Wording fixes in Bees Parts 2, 8, and 11 (still 194 lessons)"
+   "notes": "16 new lessons, including the 11-part Kinds of bees series (210 lessons total)"
   },
   "recipes": {
    "file": "recipes.json",
