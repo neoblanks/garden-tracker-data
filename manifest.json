@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 17,
- "generated": "2026-11-15T18:50:54Z",
+ "version": 18,
+ "generated": "2026-11-15T19:38:29Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
@@ -11,17 +11,16 @@
    "size": 204070,
    "sha256": "1c174929910b83ce12f60ed6204ca36dd53dfedb1a6f91945ac1993fe3ce88f2",
    "count": 140,
-   "updated": "2026-11-15",
-   "notes": "Bee Happy flags: crops bees pollinate or help"
+   "updated": "2026-11-15"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 11,
-   "size": 307432,
-   "sha256": "08cb06439780a18e5baf3d86be414f528b0c2fc6d0aa174994dca7560ec19a0f",
+   "version": 12,
+   "size": 310914,
+   "sha256": "1e712e49579967bf2502e843710ec22ead98d225f22d5d084d8f04ef4dc65a1d",
    "count": 194,
    "updated": "2026-11-15",
-   "notes": "15-part Bees lesson series (194 lessons total)"
+   "notes": "Thomas’s 46 Bees lesson wording fixes (still 194 lessons)"
   },
   "recipes": {
    "file": "recipes.json",
@@ -33,11 +32,12 @@
   },
   "storage": {
    "file": "storage.json",
-   "version": 13,
-   "size": 156855,
-   "sha256": "866891040b6613bc8c484d2893c5e2b8d661fc6687e403fe6fbf54a12068aade",
+   "version": 14,
+   "size": 158088,
+   "sha256": "86396759554861160cf6c658ede5e30d7e0992f4267a435dd866ea759358b1ab",
    "count": 9,
-   "updated": "2026-11-14"
+   "updated": "2026-11-15",
+   "notes": "Honey group in Homemade foods: do not can honey; never give honey to a child younger than 1"
   },
   "projects": {
    "file": "projects.json",
@@ -105,11 +105,12 @@
   },
   "glossary": {
    "file": "glossary.json",
-   "version": 1,
-   "size": 3977,
-   "sha256": "b2abace63ff2733cae74bfd078f8d1b276219166c6ba53e89535a1772080152a",
-   "count": 25,
-   "updated": "2026-11-14"
+   "version": 3,
+   "size": 7624,
+   "sha256": "4dabeec02143c89ce1641ce9642dd10ff68009ddbc6e6ed9d9558166dd74d68d",
+   "count": 45,
+   "updated": "2026-11-15",
+   "notes": "Bee words (45 terms), with short forms written out"
   },
   "varieties-more": {
    "file": "varieties-more.json",
@@ -121,12 +122,21 @@
   },
   "winterize": {
    "file": "winterize.json",
-   "version": 2,
-   "size": 16073,
-   "sha256": "1725024e2a31d667708174fc38d5c19e5d42aae6bb11a2fe0d96adb267617606",
+   "version": 3,
+   "size": 14507,
+   "sha256": "727553a10a34d97ff3e308c645b30402dd04e4469f8431240aa915fc25bc5d88",
    "count": 4,
    "updated": "2026-11-15",
-   "notes": "Cold-season checklists for beehives, the garden, greenhouses, and sheds or root cellars, plus pollinator flowers"
+   "notes": "Pollinator flowers moved to the bees pack; the four cold-season checklists stay here"
+  },
+  "bees": {
+   "file": "bees.json",
+   "version": 2,
+   "size": 14532,
+   "sha256": "a5b8200baea51080f76923c5fa5af2e4f071ab92ffdaf57054645e04596080e5",
+   "count": 4,
+   "updated": "2026-11-15",
+   "notes": "Bees reference: how to start, hive diseases and pests, pollinator flowers, and hive health"
   },
   "zipzones": {
    "file": "zipzones.json",

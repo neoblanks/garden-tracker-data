@@ -17,9 +17,9 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v17**
+- Manifest version: **v18**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-15T18:50:54Z
+- Generated: 2026-11-15T19:38:29Z
 
 ## Packs
 
@@ -33,7 +33,7 @@ When you get that summary, you may look up facts here.
 ### Lessons (`lessons.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/lessons.json
-- Version: **v11** · items: 194 · updated: 2026-11-15
+- Version: **v12** · items: 194 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `lessons` (see file).
 - What it holds: Short gardening lessons at about a 3rd-grade reading level. Fields: id, title, level, body (paragraphs), tip, quiz, optional series {id, part}. Part labels are Part 1, Part 2, …
 
@@ -47,7 +47,7 @@ When you get that summary, you may look up facts here.
 ### Preserve & Store (`storage.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/storage.json
-- Version: **v13** · items: 9 · updated: 2026-11-14
+- Version: **v14** · items: 9 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `methods` (see file).
 - What it holds: Food preservation methods (canning, freezing, drying, cellar, pickling, …) plus per-crop method lists. Prefer trusted process times (USDA / NCHFP / extension).
 
@@ -110,7 +110,7 @@ When you get that summary, you may look up facts here.
 ### Plant info words (`glossary.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/glossary.json
-- Version: **v1** · items: 25 · updated: 2026-11-14
+- Version: **v3** · items: 45 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `terms` (see file).
 - What it holds: One-line meanings of words on the crop page (days to harvest, sun, zones, pollination, ⓘ tips). Fields: id, term, definition, lesson_id (links to a Plant info words lesson).
 
@@ -124,9 +124,16 @@ When you get that summary, you may look up facts here.
 ### Winterizing checklists (`winterize.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/winterize.json
+- Version: **v3** · items: 4 · updated: 2026-11-15
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `guides` (see file).
+- What it holds: Cold-season prep guides with tickable checklists for beehives, the garden, greenhouses, and sheds or root cellars. Fields: id, title, blurb, intro, climate notes, items [{id,t}], links to existing lessons and projects, sources. Worldwide wording; metric first.
+
+### Bees reference (`bees.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/bees.json
 - Version: **v2** · items: 4 · updated: 2026-11-15
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `guides` (see file).
-- What it holds: Cold-season prep guides with tickable checklists for beehives, the garden, greenhouses, and sheds or root cellars. Fields: id, title, blurb, intro, climate notes, items [{id,t}], links to existing lessons and projects, sources. Also lists pollinator flowers for the Bee Happy badge. Worldwide wording; metric first.
+- What it holds: How-to-start guides (local laws, sting and allergy safety, placing a hive, nucs and packages), hive diseases and pests with notifiable notes, pollinator flowers for the Bee Happy badge, and hive health labels. Fields: guides, diseases, flowers, health, sources. Worldwide wording; metric first.
 
 ### ZIP → zone table (`zipzones.json`)
 
