@@ -6,10 +6,10 @@ Data manifest: https://neoblanks.github.io/garden-tracker-data/manifest.json
 AI guide: https://neoblanks.github.io/garden-tracker-data/ai-guide.md
 
 ## Packs
-- crops: https://neoblanks.github.io/garden-tracker-data/crops.json (v14)
-- lessons: https://neoblanks.github.io/garden-tracker-data/lessons.json (v8)
-- recipes: https://neoblanks.github.io/garden-tracker-data/recipes.json (v13)
-- storage: https://neoblanks.github.io/garden-tracker-data/storage.json (v12)
+- crops: https://neoblanks.github.io/garden-tracker-data/crops.json (v15)
+- lessons: https://neoblanks.github.io/garden-tracker-data/lessons.json (v9)
+- recipes: https://neoblanks.github.io/garden-tracker-data/recipes.json (v14)
+- storage: https://neoblanks.github.io/garden-tracker-data/storage.json (v13)
 - projects: https://neoblanks.github.io/garden-tracker-data/projects.json (v7)
 - explore: https://neoblanks.github.io/garden-tracker-data/explore.json (v10)
 - nutrition: https://neoblanks.github.io/garden-tracker-data/nutrition.json (v6)
@@ -18,6 +18,8 @@ AI guide: https://neoblanks.github.io/garden-tracker-data/ai-guide.md
 - rates: https://neoblanks.github.io/garden-tracker-data/rates.json (v3)
 - countrycrops: https://neoblanks.github.io/garden-tracker-data/countrycrops.json (v1)
 - crophistory: https://neoblanks.github.io/garden-tracker-data/crophistory.json (v1)
+- glossary: https://neoblanks.github.io/garden-tracker-data/glossary.json (v1)
+- varieties-more: https://neoblanks.github.io/garden-tracker-data/varieties-more.json (v1)
 - zipzones: https://neoblanks.github.io/garden-tracker-data/zipzones.json (v1)
 
 Prefer ai-guide.md for field meanings. Content is worldwide, not US-only.

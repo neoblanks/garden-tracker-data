@@ -17,37 +17,37 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v14**
+- Manifest version: **v15**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-15T04:13:00Z
+- Generated: 2026-11-15T04:46:58Z
 
 ## Packs
 
 ### Crop library (`crops.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/crops.json
-- Version: **v14** · items: 140 · updated: 2026-11-14
+- Version: **v15** · items: 140 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `crops` (see file).
 - What it holds: Each crop: id, name, type (Vegetable/Grain/Herb/Fruit), family, days to maturity (dtm), spacing, sun, season, method, zones [min,max], notes, sources (src). Groups nest varieties. Worldwide hardiness zones — not US-only.
 
 ### Lessons (`lessons.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/lessons.json
-- Version: **v8** · items: 153 · updated: 2026-11-13
+- Version: **v9** · items: 171 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `lessons` (see file).
 - What it holds: Short gardening lessons at about a 3rd-grade reading level. Fields: id, title, level, body (paragraphs), tip, quiz, optional series {id, part}. Part labels are Part 1, Part 2, …
 
 ### Recipes / garden meals (`recipes.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/recipes.json
-- Version: **v13** · items: 190 · updated: 2026-11-14
+- Version: **v14** · items: 197 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `recipes` (see file).
 - What it holds: Recipes that use garden crops. Fields include id, title, course, time, diet tags, ingredients linked to crop ids, steps, sources.
 
 ### Preserve & Store (`storage.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/storage.json
-- Version: **v12** · items: 9 · updated: 2026-11-14
+- Version: **v13** · items: 9 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `methods` (see file).
 - What it holds: Food preservation methods (canning, freezing, drying, cellar, pickling, …) plus per-crop method lists. Prefer trusted process times (USDA / NCHFP / extension).
 
@@ -106,6 +106,20 @@ When you get that summary, you may look up facts here.
 - Version: **v1** · items: 32 · updated: 2026-11-14
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `items` (see file).
 - What it holds: About how many years ago people first farmed (domesticated) each crop. Fields: id, name, ago (years, approximate), region, text, crops (crop ids), sure (false = still debated), atLeast, src. noDate lists library crops with no trusted date yet.
+
+### Plant info words (`glossary.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/glossary.json
+- Version: **v1** · items: 25 · updated: 2026-11-14
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `terms` (see file).
+- What it holds: One-line meanings of words on the crop page (days to harvest, sun, zones, pollination, ⓘ tips). Fields: id, term, definition, lesson_id (links to a Plant info words lesson).
+
+### More crop varieties (`varieties-more.json`)
+
+- URL: https://neoblanks.github.io/garden-tracker-data/varieties-more.json
+- Version: **v1** · items: 8 · updated: 2026-11-14
+- Top-level keys: `schema`, `version`, `updated`, and a list/map named `crops` (see file).
+- What it holds: Extra researched varieties beyond the first 25 on a crop page. Fields: id (crop id), varieties [{n, era (modern|historic), color, size, dtm, habit, resist, climate}]. The app uses the newest of the bundled pack and a later download; works offline. Own-words summaries of extension lists; not a catalog reprint.
 
 ### ZIP → zone table (`zipzones.json`)
 

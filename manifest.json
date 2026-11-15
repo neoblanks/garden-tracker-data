@@ -1,44 +1,45 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 14,
- "generated": "2026-11-15T04:13:00Z",
+ "version": 15,
+ "generated": "2026-11-15T04:46:58Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
    "file": "crops.json",
-   "version": 14,
-   "size": 142594,
-   "sha256": "d38c3b69482eb1acfb4447a1b25af0c10b53c7facf312f36ace961811650ba3c",
+   "version": 15,
+   "size": 202632,
+   "sha256": "59ef00c9f7bfb9a34a92b11ba3b7848e8d0deb41e13834bc5c104de77915e754",
    "count": 140,
    "updated": "2026-11-14",
-   "notes": "Sugarcane and cacao, with tropical and pot/greenhouse growing info"
+   "notes": "25 varieties on main crops, plus a Show more varieties pack"
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 8,
-   "size": 236630,
-   "sha256": "b7a1615ce56ab808652e49dee5a7b059205cb50f820e01d9718f7c02de9518b4",
-   "count": 153,
-   "updated": "2026-11-13"
+   "version": 9,
+   "size": 266595,
+   "sha256": "6dcefdd703147cdfb813c53eb076cfa5124ad4db56ab588f372a4ca6b1b3519e",
+   "count": 171,
+   "updated": "2026-11-14",
+   "notes": "18 new lessons, including the 8-part Plant info words series (171 total)"
   },
   "recipes": {
    "file": "recipes.json",
-   "version": 13,
-   "size": 413563,
-   "sha256": "561ff1f0d5589288315d425a63154293489d9726d49b60c0f75bed88af82c4ba",
-   "count": 190,
+   "version": 14,
+   "size": 449263,
+   "sha256": "87a700f0ce0e6eb2cf42e7f404acff46c1987c42d3b234be5f9ef30a19826dd0",
+   "count": 197,
    "updated": "2026-11-14",
-   "notes": "Homemade yeast (raisin yeast water and potato yeast), plus yeast bread, potato bread, sourdough starter, cane sugar, sour cream, and cream soups"
+   "notes": "7 gravies (mushroom, onion, brown pan, country sausage, tomato, vegan veggie, and red-eye)"
   },
   "storage": {
    "file": "storage.json",
-   "version": 12,
-   "size": 154381,
-   "sha256": "9b7bde94ece1cc157c83102b90fab70758bc9073d101f46e1d5ead37bf0177a2",
+   "version": 13,
+   "size": 156855,
+   "sha256": "866891040b6613bc8c484d2893c5e2b8d661fc6687e403fe6fbf54a12068aade",
    "count": 9,
    "updated": "2026-11-14",
-   "notes": "Homemade foods storage, including homemade yeast (do not can). Sugarcane and cacao added."
+   "notes": "Gravy storage: do not can gravy at home. Keeps 3 to 4 days in the fridge or 2 to 3 months frozen."
   },
   "projects": {
    "file": "projects.json",
@@ -94,8 +95,7 @@
    "size": 172500,
    "sha256": "f841866823ac68f2b4884fce7bd7e7c5722326db51278f1cf547dfedfb28b013",
    "count": 198,
-   "updated": "2026-11-14",
-   "notes": "Top 20 crops in 198 countries from FAOSTAT 2024 (CC BY 4.0)"
+   "updated": "2026-11-14"
   },
   "crophistory": {
    "file": "crophistory.json",
@@ -103,8 +103,25 @@
    "size": 15591,
    "sha256": "f54daadbbe5c832534198d986cc126b0d6b8744907e18c18db5209bb7776eea4",
    "count": 32,
+   "updated": "2026-11-14"
+  },
+  "glossary": {
+   "file": "glossary.json",
+   "version": 1,
+   "size": 3977,
+   "sha256": "b2abace63ff2733cae74bfd078f8d1b276219166c6ba53e89535a1772080152a",
+   "count": 25,
    "updated": "2026-11-14",
-   "notes": "Crop history timeline: how long people have grown 69 library crops"
+   "notes": "Plant info word meanings, with links to the lesson series"
+  },
+  "varieties-more": {
+   "file": "varieties-more.json",
+   "version": 1,
+   "size": 8493,
+   "sha256": "080f1ad6e135629666cf2586d4a61fbb3ad960f77768e6c8bec0b010e16ee450",
+   "count": 8,
+   "updated": "2026-11-14",
+   "notes": "Extra researched varieties for the Show more varieties button"
   },
   "zipzones": {
    "file": "zipzones.json",
