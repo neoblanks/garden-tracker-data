@@ -17,9 +17,9 @@ When you get that summary, you may look up facts here.
 
 ## Data set
 
-- Manifest version: **v20**
+- Manifest version: **v21**
 - Needs app: **1.17.1+**
-- Generated: 2026-11-15T23:44:41Z
+- Generated: 2026-11-17T19:32:27Z
 
 ## Packs
 
@@ -33,14 +33,14 @@ When you get that summary, you may look up facts here.
 ### Lessons (`lessons.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/lessons.json
-- Version: **v14** · items: 210 · updated: 2026-11-15
+- Version: **v15** · items: 215 · updated: 2026-11-16
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `lessons` (see file).
 - What it holds: Short gardening lessons at about a 3rd-grade reading level. Fields: id, title, level, body (paragraphs), tip, quiz, optional series {id, part}. Part labels are Part 1, Part 2, …
 
 ### Recipes / garden meals (`recipes.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/recipes.json
-- Version: **v14** · items: 197 · updated: 2026-11-14
+- Version: **v15** · items: 197 · updated: 2026-11-16
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `recipes` (see file).
 - What it holds: Recipes that use garden crops. Fields include id, title, course, time, diet tags, ingredients linked to crop ids, steps, sources.
 
@@ -54,14 +54,14 @@ When you get that summary, you may look up facts here.
 ### Garden projects (`projects.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/projects.json
-- Version: **v7** · items: 35 · updated: 2026-11-09
+- Version: **v8** · items: 35 · updated: 2026-11-16
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `projects` (see file).
 - What it holds: DIY garden builds (beds, trellises, compost, …). Fields: id, title, level, materials, tools, steps, cost notes. Works for many climates.
 
 ### Explore fact cards (`explore.json`)
 
 - URL: https://neoblanks.github.io/garden-tracker-data/explore.json
-- Version: **v10** · items: 142 · updated: 2026-11-13
+- Version: **v11** · items: 149 · updated: 2026-11-16
 - Top-level keys: `schema`, `version`, `updated`, and a list/map named `cards` (see file).
 - What it holds: Short fun facts and tips. Fields: id, kind, title, body, optional related crop/lesson, photo credit.
 

@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "app": "garden-tracker",
- "version": 20,
- "generated": "2026-11-15T23:44:41Z",
+ "version": 21,
+ "generated": "2026-11-17T19:32:27Z",
  "minAppVersion": "1.17.1",
  "files": {
   "crops": {
@@ -15,20 +15,21 @@
   },
   "lessons": {
    "file": "lessons.json",
-   "version": 14,
-   "size": 339708,
-   "sha256": "c56aee04cf641d939acce5763d346f71d1e867b0354f9a57fc67fcb270765a4c",
-   "count": 210,
-   "updated": "2026-11-15",
-   "notes": "16 new lessons, including the 11-part Kinds of bees series (210 lessons total)"
+   "version": 15,
+   "size": 350709,
+   "sha256": "85f32a17e38b713990e2db45504b2c568e34263d5a8a9f0733a1f6e272dd9be6",
+   "count": 215,
+   "updated": "2026-11-16",
+   "notes": "5 new lessons (bare-root trees, aphids and whiteflies, citrus leaf drop, blueberry pots, pecan scab); 215 lessons total"
   },
   "recipes": {
    "file": "recipes.json",
-   "version": 14,
-   "size": 449263,
-   "sha256": "87a700f0ce0e6eb2cf42e7f404acff46c1987c42d3b234be5f9ef30a19826dd0",
+   "version": 15,
+   "size": 449560,
+   "sha256": "d0a380b62e5ddec17b5bf55adbd26575f09dd2bf5958e28f3ddfd7c7615627b6",
    "count": 197,
-   "updated": "2026-11-14"
+   "updated": "2026-11-16",
+   "notes": "Monday recipe pack update"
   },
   "storage": {
    "file": "storage.json",
@@ -40,19 +41,21 @@
   },
   "projects": {
    "file": "projects.json",
-   "version": 7,
-   "size": 98319,
-   "sha256": "09b330a15c96449759ec5fac38adc70878ecdb5b5b89cbc6fdbebb635d4b9701",
+   "version": 8,
+   "size": 101262,
+   "sha256": "df408746059c576afcdf8e4754689853dd7c33064ebc5a14668a8a06c8ab2c3f",
    "count": 35,
-   "updated": "2026-11-09"
+   "updated": "2026-11-16",
+   "notes": "Monday Garden Projects update"
   },
   "explore": {
    "file": "explore.json",
-   "version": 10,
-   "size": 107275,
-   "sha256": "70ef65b82d1b7df829b5b73a5d3c6ed74dd2bb034535ab3cdd5c6753c97bb474",
-   "count": 142,
-   "updated": "2026-11-13"
+   "version": 11,
+   "size": 112782,
+   "sha256": "ca21719a6d0d4a63c91445bd0a666a62f0689b968f98ff6ecfdb96aa84aa65cc",
+   "count": 149,
+   "updated": "2026-11-16",
+   "notes": "7 new Explore cards (149 total)"
   },
   "nutrition": {
    "file": "nutrition.json",
